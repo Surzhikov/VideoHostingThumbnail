@@ -1,0 +1,21 @@
+{
+    "name": "surzhikov/video-hosting-thumbnail",
+    "description": "Getting thumbnail url by video url (Youtube, Vimeo, others)",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Surzhikov\\VideoHostingThumbnail\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrey Surzhikov",
+            "email": "andrey.surzhikov@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
